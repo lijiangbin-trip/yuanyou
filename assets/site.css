@@ -871,3 +871,10 @@ html{scroll-padding-top:112px}
   .studio-gallery-card{scroll-snap-align:center}
   .studio-gallery-card img{animation:none!important;transform:none!important}
 }
+.ticker-track b{
+  display:block;flex:0 0 7px;width:7px;height:7px;margin:0 8px;
+  border-radius:50%;background:var(--rose);font-size:0;line-height:0
+}
+@media(max-width:760px){
+  .ticker-track b{flex-basis:5px;width:5px;height:5px;margin:0 5px}
+}
